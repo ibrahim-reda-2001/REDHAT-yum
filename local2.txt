@@ -1,0 +1,6 @@
+vim /etc/yum.repo.d/local2
+[local2]
+name="RHL2"
+baseurl=file:///run/media/ibrahim/RHEL-9-4-0-BaseOS-x86_64/BaseOS
+enable=1
+gpgcheck=0

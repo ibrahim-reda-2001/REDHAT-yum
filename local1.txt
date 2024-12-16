@@ -1,0 +1,6 @@
+vim /etc/yum.repo.d/local1
+[local1]
+name="RHL1"
+baseurl=file:///run/media/ibrahim/RHEL-9-4-0-BaseOS-x86_64/AppStream
+enable=1
+gpgcheck=0
